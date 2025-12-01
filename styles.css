@@ -102,6 +102,12 @@ footer{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.529);
 }
 
+.cartelera-2 img{
+    width: 960px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .cartelera-3{
     border: 1px solid rgb(30, 63, 94);
     border-radius: 10px;
@@ -115,6 +121,10 @@ footer{
     padding-bottom: 10px;
 }
 
+.cartelera-3 p{
+    padding-bottom: 20px;
+}
+
 iframe{
     padding-bottom: 10px;
 }
@@ -126,6 +136,7 @@ iframe{
     padding: 20px;
     margin-top: 40px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.529);
+    margin-bottom: 40px;
 }
 
 h2{
@@ -138,4 +149,66 @@ h2{
 
 .cartelera-4 ul li a{
     color: orange;
+}
+
+.horario-main{
+    border: 1px solid rgb(30, 63, 94);
+    border-radius: 10px;
+    background-color: rgb(16, 44, 68);
+    padding: 20px;
+    margin-top: 173.5px;
+    margin-bottom: 173.5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.529);
+}
+
+.horario-main p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.horario-main table{
+    width: 100%;
+}
+
+.horario-main table, th, td{
+    border: 1px solid rgb(30, 63, 94);
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
+}
+
+.fila-oscura{
+    background-color: rgb(0, 28, 52);
+}
+
+.fila-clara{
+    background-color: rgb(45, 80, 112);;
+}
+
+.contacto-main{
+    border: 1px solid rgb(30, 63, 94);
+    border-radius: 10px;
+    background-color: rgb(16, 44, 68);
+    padding: 20px;
+    margin-top: 173.5px;
+    margin-bottom: 173.5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.529);
+}
+
+.contacto-main table input
+
+.contacto-main div, p, h2{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.fondo-oscuro-input{
+    width: 100%;
+    background-color: rgb(0, 28, 52);
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
 }
